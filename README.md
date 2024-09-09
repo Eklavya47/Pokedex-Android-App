@@ -1,5 +1,5 @@
 # Pokedex
-A Pokedex for Android written with Jetpack Compose using MVVM architecture, Retrofit and dependency injection with dagger hilt.
+A Pokedex for Android written with Kotlin and Jetpack Compose using MVVM architecture, Retrofit and dependency injection with dagger hilt.
 
 This is a sleek Pokedex app built using Kotlin and Jetpack Compose. Used Retrofit forseamleass integration of API access, offering real-time Pokemon details like stats, weight, and height. Used Gson for parsing JSON responses. Utilized Coil, a lightweight image loading library for Android, to efficiently load and display images in app UI. The app features intuitive search by name, smooth pagination for browsing, and a visually appealing UI.
 # Screenshots
