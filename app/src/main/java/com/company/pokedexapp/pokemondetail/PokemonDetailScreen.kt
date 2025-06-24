@@ -55,6 +55,7 @@ import coil.request.ImageRequest
 import com.company.pokedexapp.R
 import com.company.pokedexapp.data.remote.responses.Pokemon
 import com.company.pokedexapp.data.remote.responses.Type
+import com.company.pokedexapp.ui.theme.RobotoCondensed
 import com.company.pokedexapp.util.Resource
 import com.company.pokedexapp.util.parseStatToAbbr
 import com.company.pokedexapp.util.parseStatToColor
