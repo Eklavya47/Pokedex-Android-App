@@ -26,6 +26,7 @@ import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -84,7 +85,7 @@ fun PokemonDetailScreen(
             modifier = Modifier
                 .fillMaxWidth()
                 .fillMaxHeight(0.2f)
-                .align(Alignment.TopCenter)
+                .align(Alignment.TopStart)
         )
         PokemonDetailStateWrapper(
             pokemonInfo = pokemonInfo,
@@ -137,7 +138,7 @@ fun PokemonDetailTopSection(
     modifier: Modifier = Modifier
 ) {
     Box(
-        contentAlignment = Alignment.TopStart,
+        //contentAlignment = Alignment.TopStart,
         modifier = modifier
             .background(
                 Brush.verticalGradient(
@@ -147,13 +148,14 @@ fun PokemonDetailTopSection(
                     )
                 )
             )
+
     ){
         Icon(imageVector = Icons.Default.ArrowBack,
             contentDescription = null,
             tint = Color.White,
-            modifier = modifier
+            modifier = Modifier
                 .size(36.dp)
-                .offset(16.dp, 16.dp)
+                //.offset(16.dp, 16.dp)
                 .clickable {
                     navController.popBackStack()
                 }
