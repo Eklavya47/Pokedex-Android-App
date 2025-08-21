@@ -1,17 +1,22 @@
-# 📱 Pokedex Android App
-A modern and feature-rich Pokedex application built using Kotlin and Jetpack Compose, leveraging the PokeAPI for Pokemon data. This app allows users to browse, search, and view detailed information about different Pokemon, with a clean and intuitive user interface.
+# ⚡ Pokedex Android App
+A sleek and modern Pokedex app built using Kotlin and Jetpack Compose. This app fetches real-time Pokémon data from an external API using Retrofit, and implements pagination for smooth data loading. It features a search bar to filter Pokémon and a details screen to showcase comprehensive stats of each Pokémon. Dependency injection is managed using Dagger Hilt for better scalability and testability.
 
 # ✨ Features
+- 🏠 **Home Screen** – Displays a paginated list of Pokémon.
 - 📋 **Pokemon List** – Browse through all Pokemon with infinite scrolling
 - 🔍 **Search Pokemon** – Find Pokemon by name or number
-- ℹ️ **Detailed Info** – View comprehensive Pokemon statistics and information
+- 📄 **Details Screen** – View detailed stats of Pokemon and information
+- 🔁 **Pagination** – Loads more Pokémon as you scroll.
 - 🎨 **Modern UI** – Built with Jetpack Compose for a fluid user experience
-- 💾 **Offline Support** – Cache Pokemon data for offline access
+- 🧩 **Dependency Injection** – Efficiently managed with Dagger Hilt.
+- 🌐 **Network Calls** – Data fetched from public Pokémon API using Retrofit.
 - 🌈 **Type Colors** – Each Pokemon type represented with its distinctive color
 - 📊 **Stats Visualization** – Visual representation of Pokemon statistics
 
 # 📸 Screenshots
-[Add your app screenshots here]
+![home](https://github.com/user-attachments/assets/ef974d84-e985-4b40-9535-df7e611f038f)
+![search screen](https://github.com/user-attachments/assets/9d4e1ea1-1a81-4eea-b59f-37ce4049a45a)
+![details screen](https://github.com/user-attachments/assets/918fa892-12e6-410c-a196-d6c4e66052aa)
 
 # ⚙️ Tech Stack
 - **Language**: Kotlin
@@ -20,7 +25,6 @@ A modern and feature-rich Pokedex application built using Kotlin and Jetpack Com
 - **Dependency Injection**: Hilt
 - **API Communication**: Retrofit
 - **Image Loading**: Coil
-- **Local Storage**: Room Database
 - **Coroutines & Flow**: For asynchronous operations
 
 # 📂 Project Structure
